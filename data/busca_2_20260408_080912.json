@@ -1,0 +1,587 @@
+[
+  {
+    "titulo": "Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework",
+    "autores": "Komal Kumar , Aman Chadha , Salman Khan , Fahad Shahbaz Khan , Hisham Cholakkal",
+    "resumo": "The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. Recent advances in multi-agent large language models (LLMs) have demonstrated strong potential for understanding user intent and are being trained to utilize various tools. In this paper, we introduce Paper Circle, a multi-agent research discovery and analysis system designed to reduce the effort required to find, assess, organize, and understand academic literature. The system comprises two complementary pipelines: (1) a Discovery Pipeline that integrates offline and online retrieval from multiple sources, multi-criteria scoring, diversity-aware ranking, and structured outputs; and ( 2 ) an Analysis Pipeline that transforms individual papers into structured knowledge graphs with typed nodes such as concepts, methods, experiments, and figures, enabling graph-aware question answering and coverage verification. Both pipelines are implemented within a coder LLM-based multi-agent orchestration framework and produce fully reproducible, synchronized outputs including JSON, CSV, BibTeX, Markdown, and HTML at each agent step. This paper describes the system architecture, agent roles, retrieval and scoring methods, knowledge graph schema, and evaluation interfaces that together form the Paper Circle research workflow. We benchmark Paper Circle on both paper retrieval and paper review generation, reporting hit rate, MRR, and Recall at K. Results show consistent improvements with stronger agent models. We have publicly released the website at https://papercircle.vercel.app/ and the code at https://github.com/MAXNORM8650/papercircle. △ Less",
+    "link": "https://arxiv.org/abs/2604.06170",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Topological Characterization of Churn Flow and Unsupervised Correction to the Wu Flow-Regime Map in Small-Diameter Vertical Pipes",
+    "autores": "Brady Koenig , Sushovan Majhi , Atish Mitra , Abigail Stein , Burt Todd",
+    "resumo": "Churn flow-the chaotic, oscillatory regime in vertical two-phase flow-has lacked a quantitative mathematical definition for over $40$ years. We introduce the first topology-based characterization using Euler Characteristic Surfaces (ECS). We formulate unsupervised regime discovery as Multiple Kernel Learning (MKL), blending two complementary ECS-derived kernels-temporal alignment ($L^1$ distance on the $χ(s,t)$ surface) and amplitude statistics (scale-wise mean, standard deviation, max, min)-with gas velocity. Applied to $37$ unlabeled air-water trials from Montana Tech, the self-calibrating framework learns weights $β_{ECS}=0.14$, $β_{amp}=0.50$, $β_{ugs}=0.36$, placing $64\\%$ of total weight on topology-derived features ($β_{ECS} + β_{amp}$). The ECS-inferred slug/churn transition lies $+3.81$ m/s above Wu et al.'s (2017) prediction in $2$ -in. tubing, quantifying reports that existing models under-predict slug persistence in small-diameter pipes where interfacial tension and wall-to-wall interactions dominate flow. Cross-facility validation on $947$ Texas A&M University images confirms $1.9\\times$ higher topological complexity in churn vs. slug ($p < 10^{-5}$). Applied to $45$ TAMU pseudo-trials, the same unsupervised framework achieves $95.6\\%$ $4$-class accuracy and $100\\%$ churn recall-without any labeled training data-matching or exceeding supervised baselines that require thousands of annotated examples. This work provides the first mathematical definition of churn flow and demonstrates that unsupervised topological descriptors can challenge and correct widely adopted mechanistic models. △ Less",
+    "link": "https://arxiv.org/abs/2604.06167",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "On supertoken graphs",
+    "autores": "Mónica A. Reyes , Cristina Dalfó , Miquel Àngel Fiol",
+    "resumo": "We generalize the concept of token graphs to obtain supertoken graphs. In the latter case, there can be more than one token in a vertex. We formally define supertoken graphs and establish their basic properties. Moreover, we provide some bounds and exact values on the independence number, clique number, and chromatic number of these graphs. Finally, we construct a new infinite family of graphs, which we call the $p$-augmented 2 -token graphs of cycles, and study their properties, including the spectral radius or largest adjacency eigenvalue. △ Less",
+    "link": "https://arxiv.org/abs/2604.06164",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Data, Not Model: Explaining Bias toward LLM Texts in Neural Retrievers",
+    "autores": "Wei Huang , Keping Bi , Yinqiong Cai , Wei Chen , Jiafeng Guo , Xueqi Cheng",
+    "resumo": "Recent studies show that neural retrievers often display source bias, favoring passages generated by LLMs over human-written ones, even when both are semantically similar. This bias has been considered an inherent flaw of retrievers, raising concerns about the fairness and reliability of modern information access systems. Our work challenges this view by showing that source bias stems from supervision in retrieval datasets rather than the models themselves. We found that non-semantic differences, like fluency and term specificity, exist between positive and negative documents, mirroring differences between LLM and human texts. In the embedding space, the bias direction from negatives to positives aligns with the direction from human-written to LLM-generated texts. We theoretically show that retrievers inevitably absorb the artifact imbalances in the training data during contrastive learning, which leads to their preferences over LLM texts. To mitigate the effect, we propose two approaches: 1) reducing artifact differences in training data and 2 ) adjusting LLM text vectors by removing their projection on the bias vector. Both methods substantially reduce source bias. We hope our study alleviates some concerns regarding LLM-generated texts in information access systems. △ Less",
+    "link": "https://arxiv.org/abs/2604.06163",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Tractable model for a fractionalized Fermi liquid (FL$^*$) on a square lattice",
+    "autores": "Piers Coleman , Elio J. König , Aaditya Panigrahi , Alexei Tsvelik",
+    "resumo": "Motivated by the continued interest in Fermi-surface reconstruction without symmetry breaking, we present an analytically tractable microscopic model of a fractionalized Fermi liquid (FL$^*$) on a square lattice and discuss its potential relevance to the cuprates. As in ancilla-qubit constructions, the model is related to Kondo lattice systems, but in this case, the conduction electrons interact with a $\\mathbb{Z}_2$ spin liquid of the Yao--Lee type, with a Majorana Fermi surface. The associated $\\mathbb Z_2$ gauge theory is static so that the model can be analytically solved to leading-logarithic accuracy. There are two phases: one in which the fractionalized fermions of the spin liquid hybridize with conduction electrons to form a common Fermi surface violating the naive Luttinger count, and one in which they remain decoupled. We discuss the salient features of the small Fermi-surface phase, including analytically derived momentum dependent coherence factors responsible for the appearance of Fermi arcs à la Yang-Rice-Zhang. We further discuss the impact of quantum and thermal fluctuations, including a strong diamagnetic response and a logarithmically divergent Sommerfeld coefficient at the onset of the pseudogap. △ Less",
+    "link": "https://arxiv.org/abs/2604.06157",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Who Governs the Machine? A Machine Identity Governance Taxonomy (MIGT) for AI Systems Operating Across Enterprise and Geopolitical Boundaries",
+    "autores": "Andrew Kurtz , Klaudia Krawiecka",
+    "resumo": "The governance of artificial intelligence has a blind spot: the machine identities that AI systems use to act. AI agents, service accounts, API tokens, and automated workflows now outnumber human identities in enterprise environments by ratios exceeding 80 to 1, yet no integrated framework exists to govern them. A single ungoverned automated agent produced $5.4-10 billion in losses in the 2024 CrowdStrike outage; nation-state actors including Silk Typhoon and Salt Typhoon have operationalized ungoverned machine credentials as primary espionage vectors against critical infrastructure. This paper makes four original contributions. First, the AI-Identity Risk Taxonomy (AIRT): a comprehensive enumeration of 37 risk sub-categories across eight domains, each grounded in documented incidents, regulatory recognition, practitioner prevalence data, and threat intelligence. Second, the Machine Identity Governance Taxonomy (MIGT): an integrated six-domain governance framework simultaneously addressing the technical governance gap, the regulatory compliance gap, and the cross-jurisdictional coordination gap that existing frameworks address only in isolation. Third, a foreign state actor threat model for enterprise identity governance, establishing that Silk Typhoon, Salt Typhoon, Volt Typhoon, and North Korean AI-enhanced identity fraud operations have already operationalized AI identity vulnerabilities as active attack vectors. Fourth, a cross-jurisdictional regulatory alignment structure mapping enterprise AI identity governance obligations under EU, US, and Chinese frameworks simultaneously, identifying irreconcilable conflicts and providing a governance mechanism for managing them. A four-phase implementation roadmap translates the MIGT into actionable enterprise programs. △ Less",
+    "link": "https://arxiv.org/abs/2604.06148",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Uncertainty quantified three-body model applied to the two-neutron halo $^{22}$C",
+    "autores": "Patrick McGlynn , Chloë Hebborn",
+    "resumo": "Two-neutron halo nuclei offer a fascinating probe into the behaviour of quantum few-body systems at the limits of binding. Although few nuclei have already been clearly identified, many of their properties remain poorly constrained. $^{22}$C, one of the heaviest, still lacks a precise identification of its static and dynamic properties, such as its mass and dipole strength in the continuum. One main difficulty is that properties of two-neutron halo nuclei are inferred from experimental data using a theoretical model. Therefore, accurately determining the characteristics of two-neutron halo nuclei requires an accurate theoretical model and careful quantification of the uncertainties. In this work, we examine $^{22}$C with a three-body model, seeing $^{22}$C as a $^{20}$C core and two halo neutrons, and quantify for the first time the uncertainties associated with the $^{20}$C-$n$ interaction using a Bayesian approach. We propagate these uncertainties to properties of bound and scattering states of $^{22}$C, as well as its dipole strength. The comparison of our prediction for the matter radius to experimentally-derived values suggests that $^{22}$C is bound by less than 0.35~MeV and is dominated by a $(s_{1/2})^2$ configuration. Our analysis of the dipole strength shows that final-state interaction needs to be included for an accurate description, the uncertainties on the strength function are about 50\\% and are mostly influenced by uncertainties on the ground-state properties, and partial-wave occupation of $^{22}$C depends on the scattering length and the $d_{3/2}$ resonance energy of the $^{20}$C-$n$ unbound system. Such sensitivity of the dipole strength to the properties of both $^{21}$C and $^{22}$C properties motivates a precise measurement of the $^{22}$C dipole strength function, that will allow to precisely and accurately resolve the spectroscopy of these nuclei. △ Less",
+    "link": "https://arxiv.org/abs/2604.06139",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Absorption and quasinormal modes by rotating acoustic black holes in Lorentz-violating background",
+    "autores": "J. A. V. Campos , M. A. Anacleto , F. A. Brito , E. Passos , Amilcar R. Queiroz",
+    "resumo": "In this work, we investigate the effects of Lorentz symmetry violation on the absorption cross section and quasinormal modes of a rotating acoustic black hole in ( 2 +1) dimensions. The absorption cross section was analyzed analytically, using the low and high frequency regimes, and numerically, through integration of the radial equation. The results showed that Lorentz violation increases the absorption cross section at all energy scales, with a contribution from the rotation parameter $B$ appearing even in the low frequency regime. For the quasinormal modes, we observed that symmetry breaking decreases the real part of the frequencies and increases the magnitude of the corresponding imaginary part, indicating a faster damping of the oscillations. △ Less",
+    "link": "https://arxiv.org/abs/2604.06137",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Shot-Based Quantum Encoding: A Data-Loading Paradigm for Quantum Neural Networks",
+    "autores": "Basil Kyriacou , Viktoria Patapovich , Maniraman Periyasamy , Alexey Melnikov",
+    "resumo": "Efficient data loading remains a bottleneck for near-term quantum machine-learning. Existing schemes (angle, amplitude, and basis encoding) either underuse the exponential Hilbert-space capacity or require circuit depths that exceed the coherence budgets of noisy intermediate-scale quantum hardware. We introduce Shot-Based Quantum Encoding (SBQE), a data embedding strategy that distributes the hardware's native resource, shots, according to a data-dependent classical distribution over multiple initial quantum states. By treating the shot counts as a learnable degree of freedom, SBQE produces a mixed-state representation whose expectation values are linear in the classical probabilities and can therefore be composed with non-linear activation functions. We show that SBQE is structurally equivalent to a multilayer perceptron whose weights are realised by quantum circuits, and we describe a hardware-compatible implementation protocol. Benchmarks on Fashion MNIST and Semeion handwritten digits, with ten independent initialisations per model, show that SBQE achieves 89.1% +/- 0.9% test accuracy on Semeion (reducing error by 5.3% relative to amplitude encoding and matching a width-matched classical network) and 80.95% +/- 0.10% on Fashion MNIST (exceeding amplitude encoding by +2.0% and a linear multilayer perceptron by +1.3%), all without any data-encoding gates. △ Less",
+    "link": "https://arxiv.org/abs/2604.06135",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+    "autores": "Bowen Ye , Rang Li , Qibin Yang , Yuanxin Liu , Linli Yao , Hanglong Lv , Zhihui Xie , Chenxin An , Lei Li , Lingpeng Kong , Qi Liu , Zhifang Sui , Tong Yang",
+    "resumo": "Large language models are increasingly deployed as autonomous agents executing multi-step workflows in real-world software environments. However, existing agent benchmarks suffer from three critical limitations: (1) trajectory-opaque grading that checks only final outputs, ( 2 ) underspecified safety and robustness evaluation, and (3) narrow modality coverage and interaction paradigms. We introduce Claw-Eval, an end-to-end evaluation suite addressing all three gaps. It comprises 300 human-verified tasks spanning 9 categories across three groups (general service orchestration, multimodal perception and generation, and multi-turn professional dialogue). Every agent action is recorded through three independent evidence channels (execution traces, audit logs, and environment snapshots), enabling trajectory-aware grading over 2,159 fine-grained rubric items. The scoring protocol evaluates Completion, Safety, and Robustness, reporting Average Score, Pass@k, and Pass^k across three trials to distinguish genuine capability from lucky outcomes. Experiments on 14 frontier models reveal that: (1) trajectory-opaque evaluation is systematically unreliable, missing 44% of safety violations and 13% of robustness failures that our hybrid pipeline catches; ( 2 ) controlled error injection primarily degrades consistency rather than peak capability, with Pass^3 dropping up to 24% while Pass@3 remains stable; (3) multimodal performance varies sharply, with most models performing poorer on video than on document or image, and no single model dominating across all modalities. Beyond benchmarking, Claw-Eval highlights actionable directions for agent development, shedding light on what it takes to build agents that are not only capable but reliably deployable. △ Less",
+    "link": "https://arxiv.org/abs/2604.06132",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "QAFE $^2$ : Quantum Accelerated Multiscale Finite Element Analysis",
+    "autores": "Yiren Wang , Michael Ortiz , Fehmi Cirak",
+    "resumo": "The computational cost of concurrent multiscale finite element methods is dominated by the repeated solution of microscopic representative volume element (RVE) problems at macroscopic quadrature points. In this work, we introduce a quantum-classical framework for multiscale finite element analysis (QAFE $^2$ ) that leverages quantum parallelism to fundamentally alter the scaling of RVE-based homogenisation. At the single-RVE level, the proposed quantum solver attains polylogarithmic complexity with respect to the microscopic discretisation size, yielding an exponential asymptotic speedup over the best available classical solvers. More importantly, QAFE $^2$ exploits quantum superposition and entanglement to evaluate, in a single quantum execution, the entire ensemble of RVE problems associated with all macroscopic quadrature points. This capability is a form of intrinsic quantum concurrency with no classical analogue. Numerical experiments on one- and two-dimensional model problems with known analytical solutions confirm the accuracy of the proposed formulation and verify the theoretical computational scaling and parallel performance. △ Less",
+    "link": "https://arxiv.org/abs/2604.06130",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Gym-Anything: Turn any Software into an Agent Environment",
+    "autores": "Pranjal Aggarwal , Graham Neubig , Sean Welleck",
+    "resumo": "Computer-use agents hold the promise of assisting in a wide range of digital economic activities. However, current research has largely focused on short-horizon tasks over a limited set of software with limited economic value, such as basic e-commerce and OS-configuration tasks. A key reason is that creating environments for complex software requires significant time and human effort, and therefore does not scale. To address this, we introduce Gym-Anything, a framework for converting any software into an interactive computer-use environment. We frame environment creation itself as a multi-agent task: a coding agent writes setup scripts, downloads real-world data, and configures the software, while producing evidence of correct setup. An independent audit agent then verifies evidence for the environment setup against a quality checklist. Using a taxonomy of economically valuable occupations grounded in U.S. GDP data, we apply this pipeline to 200 software applications with broad occupational coverage. The result is CUA-World, a collection of over 10K long-horizon tasks spanning domains from medical science and astronomy to engineering and enterprise systems, each configured with realistic data along with train and test splits. CUA-World also includes CUA-World-Long, a challenging long-horizon benchmark with tasks often requiring over 500 steps, far exceeding existing benchmarks. Distilling successful trajectories from the training split into a 2B vision-language model outperforms models 2 $\\times$ its size. We also apply the same auditing principle at test time: a separate VLM reviews completed trajectories and provides feedback on what remains, improving Gemini-3-Flash on CUA-World-Long from 11.5% to 14.0%. We release all code, infrastructure, and benchmark data to facilitate future research in realistic computer-use agents. △ Less",
+    "link": "https://arxiv.org/abs/2604.06126",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Nonvariational quantum optimisation approaches to pangenome-guided sequence assembly",
+    "autores": "Josh Cudby , Sergii Strelchuk",
+    "resumo": "Assembling genomes from short-read sequencing data remains difficult in repetitive regions, where reference bias and combinatorial complexity limit existing methods. Pangenome-guided sequence assembly (PGSA) mitigates reference bias by reconstructing an individual genome as a walk through a population-level graph. The associated problem, identifying a walk whose node visits match read-derived copy numbers, is NP-hard and already challenges classical solvers at a moderate scale. We develop near-term quantum optimisation approaches for this computational bottleneck. We consider two problem encodings: an established quadratic unconstrained binary optimisation and a new higher-order binary optimisation (HUBO) formulation. The latter reduces the number of variables from $O(N^2)$ to $O(N\\log N)$ and places moderate-sized instances within the qubit budget of current devices. We solve both using the Iterative-QAOA framework, which combines a fixed linear-ramp QAOA schedule with iterative warm-start bias updates, avoiding the overhead of full variational parameter optimisation. A custom circuit compilation strategy reduces hardware gate overhead by up to 67\\% compared with standard tools. In noiseless simulations of QUBO problems, Iterative-QAOA reliably identifies optimal assemblies from as few as $10^{-17}\\%$ of all candidate solutions, and \\textit{IBM} quantum hardware closely reproduces relevant results with sufficient sampling via CVaR-style post-selection. For HUBO, the variable reduction comes at the cost of deeper compiled circuits and greater noise sensitivity: an expected qubit--depth trade-off. Our findings establish pangenome assembly as a concrete, biologically motivated problem class at the scale where quantum optimisation may first provide practical value. △ Less",
+    "link": "https://arxiv.org/abs/2604.06106",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "UI Placement as a Critical Design Factor for Augmented Reality During Locomotion",
+    "autores": "Pavel Manakhov , Hans Gellersen",
+    "resumo": "Wearable augmented reality (AR) represents the next interface to all things computing, extending what smartphones and laptops can do. This involves providing access to digital information during activities like walking or jogging. In this work we argue that the impact of physical movement on AR interaction is not direct, but mediated by UI placement - the spatial relationship between the user and the interface. Current research often treats interaction techniques in isolation, overlooking how their performance is fundamentally linked to where the UI is placed. This position paper highlights the need to reconceptualize UI placement beyond traditional anchoring views, explore novel interaction techniques designed for specific UI placements during locomotion, and rigorously evaluate UI placement as an independent variable in experimental studies. By centering the analysis on the relative movement between user and interface, we can unlock more effective on-the-go AR interaction. △ Less",
+    "link": "https://arxiv.org/abs/2604.06102",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Scientific Graphics Program Synthesis via Dual Self-Consistency Reinforcement Learning",
+    "autores": "Juekai Lin , Yun Zhu , Honglin Lin , Sijing Li , Tianwei Lin , Zheng Liu , Xiaoyang Wang , Wenqiao Zhang , Lijun Wu",
+    "resumo": "Graphics Program Synthesis is pivotal for interpreting and editing visual data, effectively facilitating the reverse-engineering of static visuals into editable TikZ code. While TikZ is the de facto standard for scientific schematics due to its programmatic flexibility, its requirement for rigorous spatial precision presents a significant challenge for Multimodal Large Language Models. Progress is currently stifled by two primary gaps: (1) Data Quality Gap: existing image-TikZ corpora often lack strict executability and reliable visual alignment; ( 2 ) Evaluation Gap: a lack of benchmarks for both structural and visual fidelity. To address these, we present a closed-loop framework featuring: SciTikZ-230K, a large-scale, high-quality dataset from our Execution-Centric Data Engine covering 11 diverse scientific disciplines; SciTikZ-Bench, a multifaceted benchmark spanning from basic geometric constructs to intricate hierarchical schematics to evaluate both visual fidelity and structural logic. To further broaden the scope of visual-code optimization methodology, we introduce a novel Dual Self-Consistency Reinforcement Learning optimization paradigm, which utilizes Round-Trip Verification to penalize degenerate code and boost overall self-consistency. Empowered by these, our trained model SciTikZer-8B achieves state-of-the-art performance, consistently outperforming proprietary giants like Gemini-2.5-Pro and massive models like Qwen3-VL-235B-A22B-Instruct. △ Less",
+    "link": "https://arxiv.org/abs/2604.06079",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "The HTC-Claw: Automating Discovery through High-Throughput Computational Campaigns",
+    "autores": "Lianduan Zeng , Xiao Zhou , Xueru Zheng , Ning Gao , Lei Liu , Yunxuan Cao , Hongjian Chen , Zhongyang Wang , Tongxiang Fan",
+    "resumo": "With the advancement of the Materials Genome Initiative, high-throughput computation has become central to accelerating materials discovery. However, conventional first-principles workflows are cumbersome and error-prone. Existing high-throughput tools, while efficient at batch job submission, lack intelligence: they cannot automatically plan tasks based on scientific objectives or dynamically adapt workflows according to intermediate results. To address these limitations, this paper proposes and implements HTC-Claw, an intelligent high-throughput computational platform built upon the OpenClaw framework. The key innovations of HTC-Claw are: 1) An agent-based framework for automatic decomposition of high-level research goals into parallelizable task sets; 2 ) A closed-loop execution engine that integrates real-time analysis and reporting; 3) Adaptive decision-making and workflow iteration capabilities based on intermediate results; and 4) A decoupled, modular architecture that separates the scheduling system from functional modules, enhancing extensibility and robustness. Case studies demonstrate that HTC-Claw enables an intelligent, end-to-end workflow from user intent to final reporting in materials exploration △ Less",
+    "link": "https://arxiv.org/abs/2604.06076",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Late Breaking Results: Hardware-Efficient Quantum Reservoir Computing via Quantized Readout",
+    "autores": "Param Pathak , Mansi Od , Nouhaila Innan , Muhammad Shafique",
+    "resumo": "Due to rising electricity demand, accurate short-term load forecasting is increasingly important for grid stability and efficient energy management, particularly in resource-constrained edge settings. We present a hardware-efficient Quantum Reservoir Computing (QRC) framework based on a fixed, untrained quantum circuit with Chebyshev feature encoding, brickwork entanglement, and single- and two-qubit Pauli measurements, avoiding quantum backpropagation entirely. Using the Tetouan City Power Consumption dataset, we examine the effect of post-training fixed-point quantization on the classical readout layer, with the reservoir architecture selected through a genetic search over 18 candidate configurations. Under finite-shot evaluation, 8-bit and 6-bit quantization maintain forecasting accuracy within 1% of the FP32 baseline while reducing readout memory by 75% and 81%, respectively. These results suggest that quantized readout can improve the hardware efficiency and deployment practicality of QRC for memory-constrained energy forecasting. △ Less",
+    "link": "https://arxiv.org/abs/2604.06075",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Star-planet magnetic interactions in photoevaporating exoplanets",
+    "autores": "Andrés Presa , Aline A. Vidotto , Filip Elekes",
+    "resumo": "Observations of periodic stellar activity near the transit phase of a close-in exoplanet provide evidence of star-planet magnetic interactions (SPMI), similar to the magnetic coupling between Jupiter and its moons. Comparing the power associated with SPMI signals to analytical theories offers a way to constrain exoplanetary magnetic fields, but models based on moon-magnetosphere analogs often underpredict observed energy fluxes. Unlike moons, many close-in exoplanets are extended, highly irradiated gas giants undergoing significant photoevaporation. However, it is not known how atmospheric escape influences the star-planet magnetic coupling. Here, we present three-dimensional radiation magneto-hydrodynamic simulations that simultaneously model planetary evaporation and SPMI in a hot Jupiter planet embedded in a magnetised stellar wind. Our simulations reveal the formation of magnetic structures known as Alfvén wings, which transport magnetic energy away from the planet. When the dayside mass-loss rate $\\dot{M}_d$ of the planet lies below a threshold $\\dot{M}_0$ defined by pressure balance between the planetary and stellar winds ($\\dot{M}_d \\leq \\dot{M}_0$), the maximal power delivered to the star matches predictions from the Alfvén wing model. For higher escape rates, the planetary outflow opens additional magnetic flux, and the SPMI power increases proportionally with $(\\dot{M}_d / \\dot{M}_0)^{1/2}$ . Applying this scaling law to the HD18973 system, we find that a $30$ G planet could reproduce the observed power if $\\dot{M}_d \\sim 10^{12}$ g/s. Although this signal likely represents only a fraction of the total power, additional mechanisms could amplify the energy budget. These results show that photoevaporating exoplanets in sub-Alfvénic orbits constitute promising targets for SPMI observations. △ Less",
+    "link": "https://arxiv.org/abs/2604.06064",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "non-minimal coupling, and the long range gravitational potential for different spin fields from 2 - 2 scattering amplitudes",
+    "autores": "Avijit Sen Majumder , Ayan Kumar Naskar , Sourav Bhattacharya",
+    "resumo": "In this paper we investigate the long range gravitational effect of curvature-scalar field non-minimal coupling, in the form of $ξR φ^2$ , in the perturbative quantum gravity framework. Such coupling is most naturally motivated from the renormalisation of a scalar field theory with a quartic self interaction in a curved spacetime background. This coupling results in two scalar-$n$ graviton vertices which contain no explicit momenta of the scalar, qualitatively different from the usual, e.g. $κh^{μν}T_{μν}$-type minimal matter-graviton vertices. Assuming the dimensionless coupling parameter $ξ$ to be small, we compute the 2 - 2 scattering Feynman amplitudes between such scalars up to ${\\cal O}(G^2 ξ)$ . From the non-relativistic limit of these amplitudes, we compute the corresponding long range gravitational potential. There exists no tree level contribution $({\\cal O}(ξG))$ here, and hence the one loop ${\\cal O}(G^2 ξ)$ result is leading. Recently, the effect of a cosmological constant in such non-minimal interaction and the subsequent gravitational potential was computed. In this work we take the cosmological constant to be vanishing. The resulting potential is found to have $r^{-4}$ leading behaviour. We further extend these results for scalar-massive spin-1 and massive spin-1/ 2 scattering. Spin and polarisation dependence of the two body potential have been explicitly demonstrated. We discuss some possible physical implications of these results. △ Less",
+    "link": "https://arxiv.org/abs/2604.06062",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "The moduli space of conically singular instantons over an SU(3)-manifold",
+    "autores": "Dominik Gutwein , Yuanqi Wang",
+    "resumo": "In this article we study the moduli space of conically singular instantons (or Hermitian Yang--Mills connections) with prescribed tangent connections over a 6-manifold equipped with an $\\mathrm{SU}(3)$-structure. That is, we develop a Fredholm deformation theory for such $\\mathrm{SU}(3)$-instantons in which we fix the tangent connection but allow the underlying principal bundle (and, in particular, the singular set) to vary. This leads to the existence of a Kuranishi structure for this moduli space. Moreover, we investigate the cokernel of the instanton deformation operator and give under certain assumptions a formula for its dimension. Ultimately, we apply our results to conically singular instantons with structure group $\\mathbb{P}\\mathrm{U}(n)$ and give a formula for the virtual dimension of their moduli space in terms of sheaf cohomology of certain vector bundles over $\\mathbb{P}^2$ . △ Less",
+    "link": "https://arxiv.org/abs/2604.06057",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Probing Kerr Symmetry Breaking with LISA Extreme-Mass-Ratio Inspirals",
+    "autores": "Pablo F. Muguruza , Carlos F. Sopuerta",
+    "resumo": "Extreme-Mass-Ratio Inspirals (EMRIs) are one of the main sources of gravitational waves expected in the low-frequency band, where space-based detectors like Laser Interferometer Space Antenna (LISA) will operate. The large number of gravitational-wave cycles accumulated in the EMRI signal in the strong-field regime makes them precise probes of the local spacetime geometry, highly sensitive to deviations from the Kerr black hole paradigm. In this work, we investigate EMRIs around generic, non-Kerr compact objects characterized by a rich multipolar structure. At leading post-Newtonian and linear mass-ratio orders, we incorporate in the waveform model both axisymmetric and non-axisymmetric components of the mass quadrupole and octupole moments, parameterizing the breaking of two fundamental symmetries of the Kerr metric. We study the impact of these modifications on the waveform following the philosophy of EMRI \\emph{Analytic Kludge} models. Then, using Fisher-matrix analysis, we assess LISA's capability to constrain deviations of the multipole moments from their Kerr values and the detection of symmetry-breaking effects. We analyze how effectively LISA will probe models beyond General Relativity that predict horizon-scale modifications, such as the fuzzball model proposed in string theory. Our results demonstrate that future LISA observations of EMRIs will provide powerful tests of black hole structure and the underlying theory of gravity. In particular, with one year of LISA data from the inspiral of a $10 M_{\\odot}$ compact object into a rotating supermassive black hole of $10^{6} M_{\\odot}$ and signal-to-noise ratio of 30, it will be possible to place tight bounds on deviations from the two fundamental symmetries of the Kerr metric, constraining equatorial symmetry breaking to the $10^{-2}$ level and axial symmetry breaking to the $10^{-3}$ level. △ Less",
+    "link": "https://arxiv.org/abs/2604.06053",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Theta Cycles of Modular Forms Modulo $p^2$",
+    "autores": "Scott Ahlgren , Martin Raum , Olav K. Richter",
+    "resumo": "The theta cycle of a modular form modulo a prime $p\\geq 5$ is well understood. By contrast, the theta cycle modulo a power of $p$ is still mysterious and experimentally erratic. Here we completely determine the theta cycle of a weight $k < p$ modular form modulo $p^2$ on the initial segment of length $p$ and we prove exact values or nontrivial bounds for the weight filtrations on $p-2$ further segments of length $p - k + 1$. In particular, asymptotically as $p \\to \\infty$ we establish 50% of the theta cycle exactly, and we provide nontrivial bounds for 100% of it. We determine the first two low points exactly and $\\left\\lfloor \\frac{p - k + 1}{2} \\right\\rfloor$ further low points at regular positions. Moreover, we detect low points at exceptional positions which solve a quadratic equation modulo $p$, and which disturb the otherwise regular structure in the segments that we exhibit. △ Less",
+    "link": "https://arxiv.org/abs/2604.06049",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "$k$-Clustering via Iterative Randomized Rounding",
+    "autores": "Jarosław Byrka , Yuhao Guo , Yang Hu , Shi Li , Chengzhang Wan , Zaixuan Wang",
+    "resumo": "In this work we propose a single rounding algorithm for the fractional solutions of the standard LP relaxation for $k$-clustering. As a starting point, we obtain an iterative rounding $(\\frac{3^p + 1}{2})$ -Lagrangian Multiplier-Perserving (LMP) approximation for the $k$-clustering problem with the cost function being the $p$-th power of the distance. Such an algorithm outputs a random solution that opens $k$ facilities \\emph{in expectation}, whose cost in expectation is at most $\\frac{3^p + 1}{2}$ times the optimum cost. Thus, we recover the $2$ -LMP approximation for $k$-median by Jain et al.~[JACM'03], which played a central role in deriving the current best $2$ approximation for $k$-median. Unlike the result of Jain et al., our algorithm is based on LP rounding, and it can be easily adapted to the $L_p^p$-cost setting. For the Euclidean $k$-means problem, the LMP factor we obtain is $\\frac{11}{3}$, which is better than the $5$ approximation given by this framework for general metrics.\n  Then, we show how to convert the LMP-approximation algorithms to a true-approximation, with only a $(1+\\varepsilon)$ factor loss in the approximation ratio. We obtain a ( $\\frac{3^p + 1}{2}+\\varepsilon$ )-approximation algorithm for $k$-clustering with cost function being the $p$-th power of the distance, for $p \\geq 1$. This reproduces the best known ( $2+\\varepsilon$ )-approximation for $k$-median by Cohen-Addad et al. [STOC'25], and improves the approximation factor for metric $k$-means from 5.83 by Charikar at al. [FOCS'25] to $5+\\varepsilon$ in our framework. Moreover, the same algorithm, but with a specialized analysis, attains ($4+\\varepsilon$)-approximation for Euclidean $k$-means matching the recent result by Charikar et al. [STOC'26]. △ Less",
+    "link": "https://arxiv.org/abs/2604.06046",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Further results on the lower bound on reduced Zagreb index of trees",
+    "autores": "Milan Bašić , Aleksandar Ilić",
+    "resumo": "For a graph $G$, the general reduced second Zagreb index is defined as $$GRM_λ(G) = \\sum_{uv \\in E} (deg(u) + λ) (deg(v) + λ),$$ where $λ$ is an arbitrary real number and $deg (v)$ is the degree of the vertex $v$.\n  In this paper, we extend and correct the equality results from [N. Dehgardia, S. Klav\\v zar, {\\it Improved lower bounds on the general reduced second Zagreb index of trees}, preprint (2023)] regarding the minimal value of $GRM_λ$ for $λ\\geq -1$ among trees with $n$ vertices and a maximal degree $Δ$. Furthermore, we complement these results with two distinct approaches to determine the minimum value of the general reduced second Zagreb index for molecular trees with $Δ= 3$ and $Δ= 4$ in $λ= -2$ , and characterize the extremal trees. △ Less",
+    "link": "https://arxiv.org/abs/2604.06044",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Value Mirror Descent for Reinforcement Learning",
+    "autores": "Zhichao Jia , Guanghui Lan",
+    "resumo": "Value iteration-type methods have been extensively studied for computing a nearly optimal value function in reinforcement learning (RL). Under a generative sampling model, these methods can achieve sharper sample complexity than policy optimization approaches, particularly in their dependence on the discount factor. In practice, they are often employed for offline training or in simulated environments. In this paper, we consider discounted Markov decision processes with state space S, action space A, discount factor $γ\\in(0,1)$ and costs in $[0,1]$. We introduce a novel value optimization method, termed value mirror descent (VMD), which integrates mirror descent from convex optimization into the classical value iteration framework. In the deterministic setting with known transition kernels, we show that VMD converges linearly. For the stochastic setting with a generative model, we develop a stochastic variant, SVMD, which incorporates variance reduction commonly used in stochastic value iteration-type methods. For RL problems with general convex regularizers, SVMD attains a near-optimal sample complexity of $\\tilde{O}(|S||A|(1-γ)^{-3}ε^{-2})$ . Moreover, we establish that the Bregman divergence between the generated and optimal policies remains bounded throughout the iterations. This property is absent in existing stochastic value iteration-type methods but is important for enabling effective online (continual) learning following offline training. Under a strongly convex regularizer, SVMD achieves sample complexity of $\\tilde{O}(|S||A|(1-γ)^{-5}ε^{-1})$, improving performance in the high-accuracy regime. Furthermore, we prove convergence of the generated policy to the optimal policy. Overall, the proposed method, its analysis, and the resulting guarantees, constitute new contributions to the RL and optimization literature. △ Less",
+    "link": "https://arxiv.org/abs/2604.06039",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Lyman-$α$ Forest Signatures of Mixed Fuzzy and Cold Dark Matter",
+    "autores": "Yourong Frank Wang",
+    "resumo": "We investigate Lyman-alpha forest flux statistics in mixed fuzzy dark matter (FDM) and cold dark matter (CDM) cosmologies using the Fluctuating Gunn-Peterson Approximation (FGPA) applied to hybrid Schrödinger-Poisson and N-body simulations. We evolve the dark matter distribution from z = 120 to z = 2 for an axion mass ( m_22 = 0.01) and FDM fraction (f_A = 0.1), and compare two realizations with identical initial conditions: one evolved with a particle-only approximation and one with full wave--mechanical dynamics.\n  We find that, despite near-degeneracy in the nonlinear matter power spectrum, the corresponding Ly α flux power spectra differ at the 10 percent level on intermediate scales. This discrepancy arises from a strong suppression of small-scale velocity power in the Schrödinger--Poisson evolution, which is not captured by N-body treatments with matched initial transfer functions. As a result, the flux statistics cannot be fully characterized by the matter power spectrum alone, but depend sensitively on the dynamical evolution of the velocity field. These results demonstrate that wave-mechanical effects in FDM leave distinct kinematic imprints in Ly α observables beyond those associated with initial-condition suppression. While our analysis is based on an idealized FGPA framework, it isolates a mechanism by which mixed dark matter models can break degeneracies present in standard structure-based probes, motivating further investigation with full hydrodynamical simulations. △ Less",
+    "link": "https://arxiv.org/abs/2604.06038",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "cuRAMSES: Scalable AMR Optimizations for Large-Scale Cosmological Simulations",
+    "autores": "Juhan Kim",
+    "resumo": "We present cuRAMSES, a suite of advanced domain decomposition strategies and algorithmic optimizations for the ramses adaptive mesh refinement (AMR) code, designed to overcome the communication, memory, and solver bottlenecks inherent in massive cosmological simulations. The central innovation is a recursive k-section domain decomposition that replaces the traditional Hilbert curve ordering with a hierarchical spatial partitioning. This approach substitutes global all-to-all communications with neighbour-only point-to-point communications. By maintaining a constant number of communication partners regardless of the total rank count, it significantly improves strong scaling at high concurrency. To address critical memory constraints at scale, we introduce a Morton-key hash table for octree-neighbour lookup alongside on-demand array allocation, drastically reducing the per-rank memory footprint. Furthermore, a novel spatial hash-binning algorithm in box-type local domains accelerates supernova and AGN feedback routines by over two orders of magnitude (an about 260 times speedup). For hybrid architectures, an automatic CPU/GPU dispatch model with GPU-resident mesh data is implemented and benchmarked. The multigrid Poisson solver achieves a 1.7 times GPU speedup on H100 and A100 GPUs, although the Godunov solver is currently PCIe-bandwidth-limited. The net improvement is about 20 per cent on current PCIe-connected hardware, and a performance model predicts about 2 times on tightly coupled architectures such as the NVIDIA GH200. Additionally, a variable-Nrank restart capability enables flexible I/O workflows. Extensive diagnostics verify that all modifications preserve mass, momentum, and energy conservation, matching the reference Hilbert-ordering run to within 0.5 per cent in the total energy diagnostic. △ Less",
+    "link": "https://arxiv.org/abs/2604.06035",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "On maximal ladders",
+    "autores": "Lorenzo Notaro",
+    "resumo": "Given a positive integer $n$, an $n$-ladder is a lower finite lattice whose elements have at most $n$ lower covers. In 1984, Ditor proved that every $n$-ladder has cardinality at most $\\aleph_{n-1}$ and asked whether this bound is sharp, i.e., whether for each $n$ there is an $n$-ladder of cardinality $\\aleph_{n-1}$. We isolate the notion of maximal $n$-ladder and use it to study Ditor's problem and related questions. We show that $\\text{Add}(ω, ω_ω)$ forces every maximal $n$-ladder to have cardinality $\\aleph_{n-1}$, and hence forces a positive answer to Ditor's question for every $n$. In particular, it is consistent that there are no maximal $3$-ladders of cardinality $\\aleph_1$. However, we show that the existence of such a ladder follows from $\\mathfrak{d}=\\aleph_1$. Under $\\clubsuit$, we construct a maximal $3$-ladder of breadth $2$ . Finally, we prove that, consistently (under $\\diamondsuit$), there exists a maximal $3$-ladder that is destructible by forcing with a Suslin tree. △ Less",
+    "link": "https://arxiv.org/abs/2604.06031",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Exploring bosonic bound states with parallel reaction coordinates",
+    "autores": "Guan-Yu Lai , Friedemann Queißer , Gernot Schaller",
+    "resumo": "Bound states are dissipation-resilient states that may emerge when quantum systems are strongly coupled to reservoirs with band gaps. We analyze an exactly solvable bosonic model for bound state existence and reproduce these results by a weak-coupling treatment of a supersystem composed of the original system and multiple reaction coordinates, which are individually representing small energy intervals of the reservoir spectral function. Within the perturbative supersystem treatment, the bound state stability results from its energy being inside the band gap. We discuss cases of multiple band gaps and also show that already in presence of weak interactions the bound state's lifetime is finite -- but can be increased by raising the system-reservoir coupling strength. △ Less",
+    "link": "https://arxiv.org/abs/2604.06027",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Gauge Symmetry Breaking in the Asymptotic Analysis of Self Dual Yang-Mills-Higgs $SU(2)$ Monopoles",
+    "autores": "Tristan Rivière",
+    "resumo": "We consider the $SU(2)$ Self-Dual Yang Mills Higgs Lagrangian in 3 dimension. By adding a ''Gauge Mass'' term to this YMH Lagrangian in the form of $L^2$ norm of the connection we break the gauge invariance and critical points are automatically fulfilling globally the Coulomb condition. We study the so called ``large mass asymptotic'', which has the effect of ''squeezing'' the monopoles. For any unit Higgs field data at the boundary we prove that minimizers of this Coulomb-Yang-Mills-Higgs Functional converge to harmonic maps into ${\\mathbb S}^2$ extending this data. This asymptotic moreover is subject to concentration conpactness phenomena and the convergence is strong away from a 1 dimensional rectifiable closed concentration set. Then we prove that, having chosen a large enough coupling constant, the limiting minimal energy is converging towards the minimal Brezis-Coron-Lieb relaxed harmonic map energy for this boundary data. In the second part of the paper we examine a different asymptotic regime characterised by overloading monopoles. In this regime we prove that asymptotically, the magnetic field becomes exclusively longitudinal with a $U(1)$ abelian component along the Higgs Field while the Higgs field itself converges to a smooth absolute minimizer of a relaxation of the Faddeev-Skyrme functional of maps from ${\\mathbb B}^3$ into ${\\mathbb S}^2$ . In the third part of the paper we study the behaviour of these configurations when the parameter in front of the Fadeev-Skyrme component respectively goes to zero and $+\\infty$. In the first case one recovers the Brezis Coron Lieb relaxed energy at the limit while in the second case the minimal limiting energy is converging towards the minimal Dirichlet energy of maps into ${\\mathbb S}^3$ whose projection by the Hopf fibration is equal to the fixed boundary data. △ Less",
+    "link": "https://arxiv.org/abs/2604.06026",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Testing parity with composite-field spectra of BOSS and DESI luminous red galaxies",
+    "autores": "Zucheng Gao , Marina S. Cagliari , Azadeh Moradinezhad Dizgah , Zvonimir Vlah",
+    "resumo": "Detection of parity violation on cosmological scales would have profound implications for fundamental physics. Motivated in part by recent measurements of parity-odd four-point correlation functions in BOSS and DESI luminous red galaxy samples, which probe parity violation in the scalar sector, we present the first measurement of parity-odd kurto spectra in spectroscopic galaxy survey data. We analyse two composite-field spectra, $\\mathcal{P}_{2\\times2}$ (vector--pseudo-vector) and $\\mathcal{P}_{3\\times1}$ (scalar--pseudo-scalar). Compared with parity-odd four-point correlation function analyses, the kurto-spectrum formalism performs physically motivated compression on the trispectrum into a substantially lower-dimensional data vector, allowing direct estimation of covariance matrices from mock catalogues and reducing sensitivity to covariance-modelling systematics. Using null-hypothesis $χ^2$ tests and cross-patch consistency checks, we find no evidence for a cosmological parity-violating signal in either survey. We examine the impact of the adopted mock catalogues and find that the high-fidelity mocks provide a better match to the data of both surveys than the approximate mocks. The DESI DR1 measurements exhibit a scatter smaller than that of BOSS DR12 by about a factor of four, consistent with the improved statistical precision expected from the higher tracer number density. Future DESI data releases, with larger volume and number density, together with larger suites of high-fidelity mocks, can enable significantly sharper tests of parity violation using kurto spectra. △ Less",
+    "link": "https://arxiv.org/abs/2604.06021",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Analyticity, asymptotics and natural boundary for a one-point function of the finite-volume critical Ising chain",
+    "autores": "Yizhuang Liu",
+    "resumo": "This note reports the following observation: the finite-volume expectation value of the spin operator (the one-point function) between the $\\mathbb{Z}_2$-even and odd ground states in the critical periodic Ising chain, when continued as a complex-analytic function of the system length $N$ through the Borel resummation of its large-$N$ expansion, has a natural boundary of analyticity along the negative real axis. The singular behavior near the negative real axis, after an exponential map, is the same as that of a Lambert-type series for the odd-divisor-squared sum near the unit circle $|z|=1$. The same divisor sum also governs the strengths of the Borel discontinuities of the one-point function's factorially-divergent large-$N$ asymptotics. We also report the all-order large-$N$ asymptotics of the leg function for the finite-volume spin-operator form factor, and the similarities to certain known quantities in the literature. △ Less",
+    "link": "https://arxiv.org/abs/2604.06011",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Are Black Holes Fuzzballs? Probing Horizon-Scale Structure with LISA",
+    "autores": "Pablo F. Muguruza , Carlos F. Sopuerta",
+    "resumo": "Gravitational waves provide a unique probe of the strong-field regime of gravity, offering access to physics beyond the classical black hole paradigm. We explore how space-based observations of extreme-mass-ratio inspirals (EMRIs) by the Laser Interferometer Space Antenna (LISA) can be used to test the fuzzball proposal, a quantum gravity-inspired alternative to Kerr black holes. By introducing generic multipolar deformations encoding potential symmetry breakings and performing a systematic parameter estimation analysis, we forecast LISA's ability to constrain deviations from the Kerr geometry in the near-horizon region. We show that EMRI signals with realistic signal-to-noise ratios can constrain multiple higher-order multipoles at levels orders of magnitude beyond current electromagnetic and ground-based gravitational-wave bounds, opening a new observational window onto horizon-scale structure. In particular, we find that LISA can constrain generic non-axisymmetric mass quadrupole deformations at the $10^{-3}$ level and axisymmetric mass octupole deformations at the $10^{-2}$ level, providing concrete observational targets for identifying fuzzball geometries. Our results demonstrate that precision measurements of EMRI waveforms will transform LISA into a powerful laboratory for fundamental physics and offer the first direct empirical constraints on quantum-gravity-motivated models of compact objects. △ Less",
+    "link": "https://arxiv.org/abs/2604.06009",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Scaling Laws for Hybrid Quantum Neural Networks: Depth, Width, and Quantum-Centric Diagnostics",
+    "autores": "Danil Vyskubov , Kirill Vyskubov , Nouhaila Innan , Muhammad Shafique",
+    "resumo": "Hybrid quantum neural networks are increasingly explored for classification, yet it remains unclear how their performance and quantum behavior scale with circuit depth and qubit count. We present a controlled scaling study of hybrid quantum-classical classifiers along two axes: (1) increasing the number of quantum layers L at fixed qubits Q, and ( 2 ) increasing the number of qubits Q at fixed depth L. Across multiple datasets, we evaluate predictive performance using Accuracy, PR-AUC, Precision, Recall, and F1, and track quantum-specific metrics (QCE, EEE, QGN) to characterize how quantum properties evolve under scaling. Our results summarize scaling trends, saturation regimes, and dataset-dependent sensitivity, and further analyze how quantum metrics relate to predictive performance. This study provides practical guidance for selecting (Q,L) in hybrid QNN classifiers and establishes a consistent evaluation protocol for scaling analysis. △ Less",
+    "link": "https://arxiv.org/abs/2604.06007",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Disentangling MLP Neuron Weights in Vocabulary Space",
+    "autores": "Asaf Avrahamy , Yoav Gur-Arieh , Mor Geva",
+    "resumo": "Interpreting the information encoded in model weights remains a fundamental challenge in mechanistic interpretability. In this work, we introduce ROTATE (Rotation-Optimized Token Alignment in weighT spacE), a data-free method requiring no forward passes that disentangles MLP neurons directly in weight space. Our approach relies on a key statistical observation: neurons that encode coherent, monosemantic concepts exhibit high kurtosis when projected onto the model's vocabulary. By optimizing rotations of neuron weights to maximize their vocabulary-space kurtosis, our method recovers sparse, interpretable directions which we name vocabulary channels. Experiments on Llama-3.1-8B-Instruct and Gemma- 2 -2B-it demonstrate that ROTATE consistently recovers vocabulary channels that are faithful to the neuron's behavior. ablating individual channels selectively disables corresponding input activations or the promotion of specific concepts. Moreover, aggregating channel-level descriptions yields comprehensive neuron descriptions that outperform optimized activation-based baselines by 2 -3x in head-to-head comparisons. By providing a data-free decomposition of neuron weights, ROTATE offers a scalable, fine-grained building block for interpreting LMs. △ Less",
+    "link": "https://arxiv.org/abs/2604.06005",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Rf spectra and pseudogap in ultracold Fermi gases across the BCS-BEC crossover from pairing fluctuation theory",
+    "autores": "Chuping Li , Lin Sun , Kaichao Zhang , Junru Wu , Yuxuan Wu , Dingli Yuan , Pengyi Chen , Qijin Chen",
+    "resumo": "The pseudogap phenomenon is a hallmark of strongly interacting Fermi systems, from high-temperature superconductors to ultracold atomic gases, yet its precise origin remains debated. Here we calculate the spectral function and rf spectra of ultracold atomic gases across the BCS-BEC crossover to quantitatively investigate the pairing mechanism of the pseudogap. We advance our pairing fluctuation theory by incorporating particle-hole fluctuations, which renormalize the effective interaction in the particle-particle channel. To achieve quantitative accuracy, we employ a full numerical convolution for the pair susceptibility and self-energy, moving beyond previous analytic pseudogap approximations. This convolution approach automatically captures two critical effects: (i) the full spectral broadening of fermions due to finite pair lifetime, and (ii) the previously neglected pair-hole scattering effect, which manifests as a substantial Hartree energy. We calculate the spectral function, and use rf spectral intensity maps and energy distribution curves to determine the quasiparticle dispersion. From these, we extract the pseudogap $Δ$, Hartree energy, and chemical potential, mapping their evolution across the crossover. Our results show that the pseudogap emerges continuously as the system moves from the BCS regime toward BEC. Furthermore, the pair spectral function reveals that pairs become diffusive at energies above 2 $Δ$, indicating that the pair lifetime is governed by virtual binding and unbinding processes. Our calculations achieve quantitative agreement with recent experiments across the BCS-BEC crossover, including at unitarity, providing strong support for a pairing-based origin of the pseudogap as described by our pairing fluctuation theory. △ Less",
+    "link": "https://arxiv.org/abs/2604.06004",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Probing the Solar $^8$B Neutrino Fog with XENONnT",
+    "autores": "E. Aprile , J. Aalbers , K. Abe , M. M. Abu Rmeileh , M. Adrover , S. Ahmed Maouloud , L. Althueser , B. Andrieu , E. Angelino , D. Antón Martin , S. R. Armbruster , F. Arneodo , L. Baudis , M. Bazyk , V. Beligotti , L. Bellagamba , R. Biondi , A. Bismark , K. Boese , R. M. Braun , G. Bruni , R. Budnik , C. Cai , C. Capelli , J. M. R. Cardoso , et al. (154 additional authors not shown)",
+    "resumo": "We report a 3.3 $σ$ measurement of coherent elastic neutrino-nucleus scattering from solar $^8$B neutrinos using a 6.77 t$\\times$yr exposure from the XENONnT experiment, inferring a solar $^8$B neutrino flux of $(5_{-2}^{+3})\\times 10^6\\,\\mathrm{cm}^{-2}\\mathrm{s}^{-1}$ , consistent with previous measurements. In the presence of the $^8$B \"neutrino fog\", we find no evidence for light dark matter, and observe diminishing returns in sensitivity with increasing exposure. A 93% increase in exposure from the previous search improves the median sensitivity to 5 GeV/ $c^2$ weakly interacting massive particles-nucleon cross section by 10%. The dataset was also used to measure the weak mixing angle at $\\sim$ 0.02 GeV/$c$ momentum transfer and constrain physics beyond the Standard Model. △ Less",
+    "link": "https://arxiv.org/abs/2604.06002",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Branching Process in a Varying Environment: How to Grow Like the Product of Means",
+    "autores": "Y. Kirpicheva , A. Shklyaev",
+    "resumo": "Consider a branching process $\\{Z_n\\}$ in a varying environment. Let $\\{W_n\\}$ be the natural martingale $Z_n/{\\bf E}Z_n$. It converges to some random variable $W$ as $n\\to\\infty$. An important problem is to show that ${\\bf P}(W>0)$ equals the survival probability, so that $Z_n$ is either $0$ or of the order ${\\bf E}Z_n$. We find a new kind of sufficient conditions, applicable to branching processes in a random environment. An important property of our estimates is that we don't necessary assume that ${\\bf E}X_{i,1}^2$ are finite for every $i$. △ Less",
+    "link": "https://arxiv.org/abs/2604.05999",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Numerically Exact Study of Flat-Band Superconductivity",
+    "autores": "I. S. Tupitsyn , B. Currie , B. V. Svistunov , E. Kozik , N. V. Prokof'ev",
+    "resumo": "Current theories of high-temperature superconductivity in flat-band systems predict a linear dependence of the transition temperature on the attractive interaction, $T_c(U) = c|U|$. However, neither the value of $c$ nor the full nonlinear $T_c(U)$ curve -- with a maximum at large $|U|$ -- is known beyond mean-field and quantum geometry estimates. Using a controlled diagrammatic Monte Carlo technique, we trace the onset of superfluid response in the Lieb lattice with attractive Hubbard interaction. Focusing on the half-filled flat-band case, where the ordering mechanism differs fundamentally from both BCS and preformed Cooper pair scenarios, we find that the pairing response diverges linearly with decreasing temperature over a broad range of $U$, leading to a sharp crossover to long-range correlations at a characteristic temperature $T_*$, which provides a controlled upper bound on $T_c$. The highest $T_*$ occurs when all three bands touch at a single momentum point, potentially corresponding to high $T_c$ values. △ Less",
+    "link": "https://arxiv.org/abs/2604.05997",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Band-basis decomposition of superfluid weight in magic-angle twisted bilayer graphene: Quantifying geometric and conventional contributions",
+    "autores": "Jian Zhou",
+    "resumo": "We decompose the superfluid weight D_s of magic-angle twisted bilayer graphene (MATBG) into conventional (band-velocity) and geometric (interband-coherence) contributions using a band-basis current operator splitting applied to the Bistritzer-MacDonald continuum model. In the flat-band subspace, quantum geometry accounts for 22-26% of D_s at charge neutrality depending on pairing symmetry, with cross terms vanishing to machine precision. Including remote bands raises the geometric fraction to ~55-58%, while D_s^conv converges to within 2 % -- demonstrating that remote bands contribute exclusively through interband coherence. The geometric fraction peaks at ~27-33% near the nu = +/- 2 fillings where superconductivity is strongest, and is insensitive to gap magnitude in the experimentally relevant range. △ Less",
+    "link": "https://arxiv.org/abs/2604.05994",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Quasinormal modes of coupled metric-dilaton perturbations in two-dimensional stringy black holes",
+    "autores": "Wen-Hao Bian , Zhu-Fang Cui",
+    "resumo": "We investigate the quasinormal modes (QNMs) associated with intrinsic metric-dilaton coupled perturbations of the Mandal-Sengupta-Wadia (MSW) black hole in two-dimensional string theory. Through suitable field redefinitions, the gravity-dilaton system is expressed in terms of the conformal factor and a redefined dilaton field, allowing the linear perturbation equations to be reduced to coupled Schrodinger-type eigenvalue equations in the tortoise coordinate. By imposing the standard QNMs' boundary conditions of purely ingoing waves at the horizon and purely outgoing waves at spatial infinity, we numerically determine the complex frequency spectrum. All modes satisfy Im$(ω)<0$, confirming the linear stability of the MSW black hole under intrinsic coupled perturbations. Unlike external scalar-field perturbations, which yield purely imaginary frequencies, the intrinsic perturbations generically exhibit nonvanishing real parts, corresponding to oscillatory modes of the gravity-dilaton sector. The real part of the frequency displays a nonmonotonic dependence on the overtone number, while increasing the central-charge parameter $\\sqrt{k}$ systematically decreases the damping rate and prolongs the relaxation time. These results indicate that intrinsic perturbations probe internal dynamical degrees of freedom and reveal characteristic features of the relaxation dynamics of two-dimensional stringy black holes. △ Less",
+    "link": "https://arxiv.org/abs/2604.05988",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Self-gravitating thin shells are dynamically unstable on all angular scales",
+    "autores": "Tristan Pitre , Berend Schneider , Eric Poisson",
+    "resumo": "We establish the dynamical instability of a static, spherically symmetric, and infinitesimally thin shell in general relativity. The shell is made up of a perfect fluid with a barotropic equation of state, and it produces a Schwarzschild spacetime in its exterior and a Minkowski spacetime in its interior. We reveal the existence of two modes with a purely imaginary frequency, one negative (which describes stable oscillations), the other positive (which describes an exponential growth); these modes occur for all sampled values of the shell's compactness and adiabatic index, and all sampled values of the multipolar order $\\ell \\geq 2$ , in the even-parity sector of the perturbation. All other quasinormal modes describe damped oscillations. This study complements a recent analysis by Yang, Bonga, and Pen, which also concluded in a dynamical instability, but was limited by an eikonal approximation to small angular scales ($\\ell \\gg 1$); our treatment applies to all angular scales. The eigenvalue problem for the mode frequencies is formulated by introducing a perturbation of Minkowski spacetime, a perturbation of Schwarzschild spacetime, and a perturbation of the shell matter. The metric perturbations are governed by the Einstein field equations, and they are matched across the shell with the help of Israel's junction conditions. The matter perturbation is governed by the equations of fluid mechanics, and it produces a source term in the junction conditions. All calculations are carried out in full general relativity, but we also examine a nonrelativistic formulation of the problem; we show that a Newtonian shell also is necessarily unstable to a time-dependent perturbation. Our conclusion suggests that a compact object that features a thin shell at its surface will be dynamically unstable; this makes it nonviable as a model of black-hole mimicker. △ Less",
+    "link": "https://arxiv.org/abs/2604.05980",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Analytic and combinatorial approaches to a weighted Catalan sum",
+    "autores": "Jean-Christophe Pain",
+    "resumo": "We analyze a weighted convolution of Catalan numbers $$ \\sum_{k=0}^{n} \\binom{2k}{k}\\binom{2(n-k)}{n-k} a^k = \\sum_{k=0}^{n} (k+1)(n-k+1) C_k C_{n-k} a^k, $$ emphasizing its combinatorial, analytic, and probabilistic aspects. We derive a compact closed form in terms of the Gauss hypergeometric function ${}_2F_1(-n,1/2;1;1-a)$, valid for all complex values of the parameter $a$. The sum admits a natural interpretation in terms of return probabilities of independent simple random walks, linking weighted convolutions of central binomial coefficients to classical probability theory. Furthermore, a refinement via Narayana numbers highlights the contribution of peak distributions in pairs of Dyck paths, providing a finer combinatorial perspective. An integral representation is also proposed, suggesting a connection with orthogonal polynomials and spectral measures. Our approach illustrates how analytic and probabilistic techniques complement combinatorial reasoning in evaluating complex sums. △ Less",
+    "link": "https://arxiv.org/abs/2604.05976",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms",
+    "autores": "Nirajan Acharya , Gaurav Kumar Gupta",
+    "resumo": "The Model Context Protocol (MCP), introduced by Anthropic in November 2024 and now governed by the Linux Foundation's Agentic AI Foundation, has rapidly become the de facto standard for connecting large language model (LLM)-based agents to external tools and data sources, with over 97 million monthly SDK downloads and more than 177000 registered tools. However, this explosive adoption has exposed a critical gap: the absence of a unified, formal security framework capable of systematically characterizing, analyzing, and mitigating the diverse threats facing MCP-based agent ecosystems. Existing security research remains fragmented across individual attack papers, isolated benchmarks, and point defense mechanisms. This paper presents MCPSHIELD, a comprehensive formal security framework for MCP-based AI agents. We make four principal contributions: (1) a hierarchical threat taxonomy comprising 7 threat categories and 23 distinct attack vectors organized across four attack surfaces, grounded in the analysis of over 177000 MCP tools; ( 2 ) a formal verification model based on labeled transition systems with trust boundary annotations that enables static and runtime analysis of MCP tool interaction chains; (3) a systematic comparative evaluation of 12 existing defense mechanisms, identifying coverage gaps across our threat taxonomy; and (4) a defense in depth reference architecture integrating capability based access control, cryptographic tool attestation, information flow tracking, and runtime policy enforcement. Our analysis reveals that no existing single defense covers more than 34 percent of the identified threat landscape, whereas MCPSHIELD's integrated architecture achieves theoretical coverage of 91 percent. We further identify seven open research challenges that must be addressed to secure the next generation of agentic AI systems. △ Less",
+    "link": "https://arxiv.org/abs/2604.05969",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Composition design of refractory compositionally complex alloys using machine learning models",
+    "autores": "Tao Liang , Eric A. Lass , Haochen Zhu , Carla Joyce C. Nocheseda , Philip D. Rack , Stephen Puplampu , Dayakar Penumadu , Haixuan Xu",
+    "resumo": "Refractory compositionally complex alloys (RCCAs) are considered the next generation high-temperature materials. However, their high-dimensional composition spaces are too large to explore by traditional density functional theory or experimental means, making new RCCA discovery slow and cumbersome. This work has addressed these challenges with an integrated composition design framework that can efficiently and exhaustively explore the relationship between the compositions and two fundamental aspects: 1) the phase stability, including the target body-centered cubic (BCC) phase and its competing phases (hexagonal closed-pack (HCP) structures, Laves and B2 intermetallic phases), and 2 ) the mechanical properties. This framework is demonstrated with RCCAs within nine refractory metals (Ti, V, Cr, Zr, Nb, Mo, Hf, Ta, and W). Theory-guided machine learning (ML) models were employed to find the composition-mechanical property relationship of RCCAs, where the established theory is used to supplement the yield strength data at ultra-high temperature, and a forward sequential feature selection (SFS) is used to determine feature selection. The resulting ML model for temperature-dependent yield strength was found to have an R_squared value of 0.98 over the entire temperature range (from 0 to 2000 K). The impact of each constituent element on the six key properties is evaluated. The addition of Nb tends to stabilize the BCC phase and the addition of Ti improves the ductility of RCCAs. Combined with all methods involved in this framework, the on-demand designer allows the alloy designers to have all properties for any RCCA compositions and narrow down the composition space by applying custom screening criteria. The output from the predictor and screener provides valuable guidance for our experimental study of RCCAs and accelerates the pace of materials discovery. △ Less",
+    "link": "https://arxiv.org/abs/2604.05968",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Distributed Quantum Property Testing with Communication Constraints",
+    "autores": "Mina Doosti , Ryan Sweke , Chirag Wadhwa",
+    "resumo": "We introduce a framework for distributed quantum inference under communication constraints. In our model, $m$ distributed nodes each receive one copy of an unknown $d$-dimensional quantum state $ρ$, before communicating via a constrained one-way communication channel with a central node, which aims to infer some property of $ρ$. This framework generalizes the classical distributed inference framework introduced by Acharya, Canonne, and Tyagi [COLT2019], by allowing quantum resources such as quantum communication and shared entanglement. Within this setting, we focus on the fundamental problem of quantum state certification: Given a complete description of some state $σ$, decide whether $ρ=σ$ or $\\|ρ-σ\\|_1\\geq ε$. Additionally, we focus on the case of limited quantum communication between distributed nodes and the central node. We show that when each communication channel is limited to only $n_q\\leq \\log d$ qubits, then the sample complexity of distributed state certification is $\\mathcal{O}(\\frac{d^2}{2^{n_q}ε^2})$ when public randomness is available to all nodes. Moreover, under the assumption that the channels used by the distributed nodes are mixedness-preserving, we prove a matching lower bound. We further demonstrate that shared randomness is necessary to achieve the above complexity, by proving an $Ω(\\frac{d^3}{4^{n_q} ε^2})$ lower bound in the private-coin setting under the same assumption as above. Our lower bounds leverage a recently introduced quantum analogue of the celebrated Ingster-Suslina method and generalize arguments from the classical setting. Together, our work provides the first characterization of distributed quantum state certification in the regime of limited quantum communication and establishes a general framework for distributed quantum inference with communication constraints. △ Less",
+    "link": "https://arxiv.org/abs/2604.05962",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "HumANDiff: Articulated Noise Diffusion for Motion-Consistent Human Video Generation",
+    "autores": "Tao Hu , Varun Jampani",
+    "resumo": "Despite tremendous recent progress in human video generation, generative video diffusion models still struggle to capture the dynamics and physics of human motions faithfully. In this paper, we propose a new framework for human video generation, HumANDiff, which enhances the human motion control with three key designs: 1) Articulated motion-consistent noise sampling that correlates the spatiotemporal distribution of latent noise and replaces the unstructured random Gaussian noise with 3D articulated noise sampled on the dense surface manifold of a statistical human body template. It inherits body topology priors for spatially and temporally consistent noise sampling. 2 ) Joint appearance-motion learning that enhances the standard training objective of video diffusion models by jointly predicting pixel appearances and corresponding physical motions from the articulated noises. It enables high-fidelity human video synthesis, e.g., capturing motion-dependent clothing wrinkles. 3) Geometric motion consistency learning that enforces physical motion consistency across frames via a novel geometric motion consistency loss defined in the articulated noise space. HumANDiff enables scalable controllable human video generation by fine-tuning video diffusion models with articulated noise sampling. Consequently, our method is agnostic to diffusion model design, and requires no modifications to the model architecture. During inference, HumANDiff enables image-to-video generation within a single framework, achieving intrinsic motion control without requiring additional motion modules. Extensive experiments demonstrate that our method achieves state-of-the-art performance in rendering motion-consistent, high-fidelity humans with diverse clothing styles. Project page: https://taohuumd.github.io/projects/HumANDiff/ △ Less",
+    "link": "https://arxiv.org/abs/2604.05961",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Multi-Modal Landslide Detection from Sentinel-1 SAR and Sentinel- 2 Optical Imagery Using Multi-Encoder Vision Transformers and Ensemble Learning",
+    "autores": "Ioannis Nasios",
+    "resumo": "Landslides represent a major geohazard with severe impacts on human life, infrastructure, and ecosystems, underscoring the need for accurate and timely detection approaches to support disaster risk reduction. This study proposes a modular, multi-model framework that fuses Sentinel- 2 optical imagery with Sentinel-1 Synthetic Aperture Radar (SAR) data, for robust landslide detection. The methodology leverages multi-encoder vision transformers, where each data modality is processed through separate lightweight pretrained encoders, achieving strong performance in landslide detection. In addition, the integration of multiple models, particularly the combination of neural networks and gradient boosting models (LightGBM and XGBoost), demonstrates the power of ensemble learning to further enhance accuracy and robustness. Derived spectral indices, such as NDVI, are integrated alongside original bands to enhance sensitivity to vegetation and surface changes. The proposed methodology achieves a state-of-the-art F1 score of 0.919 on landslide detection, addressing a patch-based classification task rather than pixel-level segmentation and operating without pre-event Sentinel- 2 data, highlighting its effectiveness in a non-classical change detection setting. It also demonstrated top performance in a machine learning competition, achieving a strong balance between precision and recall and highlighting the advantages of explicitly leveraging the complementary strengths of optical and radar data. The conducted experiments and research also emphasize scalability and operational applicability, enabling flexible configurations with optical-only, SAR-only, or combined inputs, and offering a transferable framework for broader natural hazard monitoring and environmental change applications. Full training and inference code can be found in https://github.com/IoannisNasios/sentinel-landslide-cls. △ Less",
+    "link": "https://arxiv.org/abs/2604.05959",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "The ${\\rm SL}(2,\\mathbb{C})$ -character variety of the magic $3$-manifold",
+    "autores": "Haimiao Chen",
+    "resumo": "We determine the irreducible ${\\rm SL}(2,\\mathbb{C})$ -character variety of the 3-chain link exterior which is called the `magic $3$-manifold', and deduce a formula for the twisted Alexander polynomial associated to each ${\\rm SL}(2,\\mathbb{C})$ -representation. △ Less",
+    "link": "https://arxiv.org/abs/2604.05957",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Stably tangential strict hyperbolization",
+    "autores": "Mauricio Bustamante , Eduardo Reyes , Stefano Riolo",
+    "resumo": "We show that the Charney-Davis strict hyperbolization procedure can preserve stable tangent bundles, answering a question of Charney and Davis. The key input is a construction of many hyperbolizing pieces, obtained using separability properties of hyperbolic cubulable groups. Moreover, these pieces may be chosen so that every face is connected. We then apply this construction to suitable cubulations of flat manifolds to produce infinitely many commensurability classes of closed hyperbolic manifolds, both arithmetic and non-arithmetic, with diverse topological features. In particular, we obtain examples with non-trivial Stiefel-Whitney classes, and the first orientable examples with non-trivial Pontryagin classes. We also construct infinite towers of finite covers of closed hyperbolic manifolds in which no cover is stably parallelizable or spin. Our methods further yield a new way to produce hyperbolic manifolds that bound geometrically. △ Less",
+    "link": "https://arxiv.org/abs/2604.05956",
+    "data": "Submitted 7 April, 2026",
+    "imagem_url": "",
+    "fonte": "arXiv"
+  },
+  {
+    "titulo": "Caracterización tipológica y temporalidad del agroecosistema rastrojo en Chiapas, México",
+    "autores": "",
+    "resumo": "Abstract  Introduction.  Maize stubble plays a fundamental role in the productive dynamics of the Frailesca region, Chiapas, Mexico, by linking agricultural and livestock agroecosystems and ensuring the subsistence of producers during drought periods. Objective. To characterize and typify the stubble-based agroecosystem of the Frailesca region, based on the seasonality of the dry period, the maize production cycle, and the different uses of stubble. Materials and methods. Semi-structured interviews were conducted, and production records were collected from sixty producers between January and December 2023 in the municipalities of Villa Corzo, Villaflores, and La Concordia in the Frailesca region, Chiapas, Mexico, using snowball sampling. For the characterization, variables related to context, area, land tenure, and the stubble, maize, and livestock agroecosystems were included. Typological variants of seasonality and systemic management were determined. Groups were defined through factorial and cluster analyses, and the association between typologies was assessed through correspondence factorial analysis. Results. The seasonality typology grouped producers into three categories: (1) those who perceive the maize cycle as late and short; (2) those who perceive it as early and long; and (3) those who perceive the dry period as late and short. In all groups, stubble perception was similar. Regarding management practices, three groups were identified: (1) livestock farmers with access to technology; (2) livestock farmers with limited resources; and (3) maize farmers who commercialize stubble. Conclusions. The stubble-based agroecosystem is organized into three temporal dimensions that influence management strategies. Differentiated management forms were identified, which present distinct adaptations according to access to resources and demonstrate the relevance of seasonality for sustainability.",
+    "link": "http://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S1659-13212026000100010&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Tratamiento de aguas residuales de rastro: un caso de estudio en México",
+    "autores": "",
+    "resumo": "Abstract  (Introduction): Slaughterhouses are facilities where animals are slaughtered for meat and other products. The wastewater generated in these establishments impacts on the environment and public health due to its high organic matter content, nutrients (nitrogen and phosphorus), and pathogens when discharged untreated. Therefore, the proper management of these wastewaters is crucial to ensure the protection of human health.  (Objective):  To propose a treatment system for wastewater from a municipal slaughterhouse, taking Zacualpan de Amilpas in the state of Morelos, Mexico, as a case study.  (Methodology):  A representative sample of the slaughterhouse wastewater was characterized physicochemically and biologically. Based on the results, a treatment system was designed, a prototype was built to treat the effluent, and the treated water was characterized, comparing the results with the quality limits established in official Mexican standards.  (Results):  Total suspended solids, settleable solids, chemical oxygen demand, total nitrogen, and fecal coliforms exceeded quality limits by 536 %, 1 250 %, 566 %, 2 846 %, and 480 %, respectively. Escherichia coli was also present. A prototype treatment system based on sedimentation, coagulation-flocculation, activated sludge, and disinfection was proposed and built. High removal efficiencies (89.9 % - 99.9 %) were achieved for most parameters outside the standard. Only total nitrogen showed an efficiency of 67.5 %, remaining outside the quality limits.  (Conclusions): The proposed treatment system was favorable, achieving efficient removal percentages. However, an anoxic reactor could be included in the system to reduce nitrogen below quality limits.",
+    "link": "http://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S2215-38962026000200002&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Efecto repelente de aceites esenciales sobre el ácaro Tetranychus urticae Koch (Acari: Tetranychidae)",
+    "autores": "",
+    "resumo": "Abstract  Introduction.  Various plant extracts are used in agriculture to reduce the impact of arthropod pests. However, few studies describe the toxic or repellent action of cinnamon, citronella, and ginger essential oils on populations of phytophagous mites such as Tetranychus urticae. Objective. To evaluate the repellent effect of commercial grade essential oils of cinnamon (Cinnamomum zeylanicum), citronella (Cymbopogon winterianus), and ginger (Zingiber officinale) on a population of the mite Tetranychus urticae on sweet pepper (Capsicum annuum) plants under in vitro conditions. Materials and methods. The research was conducted between October and November 2023 at the Acarology Laboratory of the Crop Protection Research Center (CIPROC) of the School of Agronomy, University of Costa Rica, located in San José, Costa Rica. Four concentrations (1 %, 2 %, 3 %, and 4 %) of each essential oil (cinnamon, citronella, and ginger) were tested at a volume of 333 µL per leaf. To quantify their repellent effect, a choice test using paper bridges was employed. Evaluations were performed 24 and 48 hours after application. A randomized complete block design was used, and data were analyzed with a generalized linear model. Results. The three oils and their concentrations showed repellent activity above 60 %, except for citronella oil at 2 %. Higher concentrations did not always result in greater mite repellency, although this pattern varied among oils. Conclusions. Cinnamon, citronella, and ginger essential oils have repellent properties against Tetranychus urticae, demonstrating their potential as an alternative for the management of this pest.",
+    "link": "http://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S1659-13212026000100012&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Formación tecnológica y gestión en el desarrollo del capital humano competitivo: una revisión sistemática",
+    "autores": "",
+    "resumo": "Resumen La presente revisión sistemática analiza la relación entre la formación tecnológica, las herramientas gerenciales y el desarrollo de capital humano competitivo en instituciones de educación técnica y superior. Se consultaron Scopus y Web of Science (2020-2025), aplicando criterios rigurosos de inclusión: revisión por pares, pertinencia temática y enfoque educativo. De 25 artículos seleccionados, se realizó un análisis mediante codificación temática, organizado en cinco ejes principales: (1) desarrollo del capital humano y empleabilidad, con mejoras en inserción laboral y adaptabilidad; (2) formación tecnológica y competencias digitales, ligadas a pensamiento crítico, resolución de problemas y alfabetización digital docente; (3) herramientas gerenciales para la gestión académica y organizacional, que optimizan planificación, evaluación y productividad; (4) innovación educativa y adecuación curricular, mediante currículos flexibles y sostenibles alineados al mercado laboral; y (5) transformación institucional en entornos laborales volátiles, impulsada por liderazgo, gobernanza y excelencia digital para fomentar resiliencia. Se identifican brechas en integración regional, heterogeneidad de competencias digitales y articulación universidad-empresa-Estado en América Latina. Se proponen políticas que integren inversión tecnológica, actualización curricular y desarrollo de talento. Limitaciones incluyen el recorte temporal, el uso de solo dos bases de datos y sesgos idiomáticos. Estos hallazgos delinean una hoja de ruta para elevar la pertinencia y competitividad del sector educativo.",
+    "link": "http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S2739-00632026000303162&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Inteligencia artificial en la fiscalización gubernamental: avances, desafíos y perspectivas éticas desde una revisión sistemática",
+    "autores": "",
+    "resumo": "Resumen La incorporación de la Inteligencia Artificial (IA) en los procesos de fiscalización gubernamental representa una innovación disruptiva en la gestión pública contemporánea. Su aplicación permite automatizar tareas, optimizar la detección de irregularidades y mejorar la transparencia en el control institucional. Sin embargo, también plantea desafíos éticos, normativos y organizativos que requieren un análisis sistemático. El objetivo de esta investigación fue analizar los avances, beneficios y retos de la implementación de la IA en los procesos de fiscalización y auditoría gubernamental, identificando las principales áreas de aplicación y los factores que condicionan su adopción responsable. Se desarrolló una revisión sistemática de tipo cualitativo-documental siguiendo los lineamientos del protocolo PRISMA 2020. La búsqueda se realizó en bases de datos Scopus, SciELO, Redalyc, Dialnet y Latindex, considerando publicaciones entre 2015 y 2025. Se seleccionaron 42 estudios que cumplían con criterios de calidad metodológica según el instrumento CASP (2023). Los hallazgos se agruparon en tres ejes temáticos: (1) transformación digital y automatización de procesos, (2) impactos éticos y normativos, y (3) desarrollo de capacidades institucionales. La evidencia demuestra que la IA incrementa la eficiencia y precisión en las auditorías, aunque persisten limitaciones derivadas de la falta de infraestructura tecnológica, formación especializada y marcos regulatorios sólidos. La IA fortalece la transparencia, la rendición de cuentas y la efectividad del control público, siempre que se implemente bajo principios de ética, gobernanza y capacitación institucional. Su integración responsable configura un nuevo paradigma de fiscalización inteligente, predictiva y sostenible.",
+    "link": "http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S2739-00632026000303108&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Las experiencias vividas de docentes ante los desafíos de implementar una educación intercultural en aulas culturalmente diversas",
+    "autores": "",
+    "resumo": "Resumen El presente estudio tiene como propósito comprender la experiencia vivida por docentes frente a los desafíos de implementar la educación intercultural en aulas caracterizadas por una alta diversidad cultural. Se adoptó un enfoque cualitativo de orientación fenomenológica y se realizaron entrevistas semiestructuradas a diez docentes de educación básica en la región del Cusco que trabajan con estudiantes provenientes de contextos culturales diversos. Los datos fueron analizados mediante el software MAXQDA. Los hallazgos revelan cinco categorías emergentes: (1) Desafíos y barreras estructurales, evidenciados en las dificultades lingüísticas, la escasa capacitación especializada y la brecha persistente entre las políticas educativas y su aplicación real; (2) Prácticas pedagógicas interculturales, que exigen escucha activa, adaptación continua y un rol docente como mediador cultural; (3) Reconfiguración de prejuicios, derivada de la confrontación, a menudo emocionalmente incómoda, con los propios sesgos y estereotipos; (4) Reconocimiento ambivalente de la diversidad cultural, experimentado simultáneamente como una fuente de enriquecimiento pedagógico y como un espacio generador de tensiones personales; y (5) Transformación personal y profesional, donde la experiencia intercultural reconfigura de forma integral la identidad docente. Las conclusiones indican que la implementación de la educación intercultural trasciende lo metodológico, constituyéndose como un proceso existencial complejo que demanda no solo competencias técnicas, sino también una profunda transformación de concepciones, un acompañamiento institucional sostenido y la mejora de las condiciones estructurales. Este estudio aporta a la comprensión de las dimensiones frecuentemente invisibilizadas de la práctica docente intercultural, y fundamenta la necesidad de políticas educativas que reconozcan y fortalezcan integralmente el desarrollo profesional en contextos de diversidad cultural.",
+    "link": "http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S2739-00632026000302135&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Male Adult Breast Hamartoma",
+    "autores": "",
+    "resumo": "Resumo Homem de 43 anos com nódulo periareolar direito de crescimento lento. Realizou mamografia e ecografia, que revelaram uma massa oval encapsulada, com mistura de gordura e tecido fibroglandular, configurando o clássico “breast-within-a-breast”. O hamartoma mamário é raro no sexo masculino - menos de uma dezena de casos descritos -, mas quando apresenta aspeto típico dispensa biópsia. A lesão foi classificada como BI-RADS 2 e recomendou-se vigilância clínica anual. O caso sublinha a importância de reconhecer esta entidade benigna e evitar procedimentos invasivos.",
+    "link": "http://www.scielo.pt/scielo.php?script=sci_arttext&pid=S2183-13512026000300902&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "“How to Lead Our Lives?” Advance Directives (Ads) in an Aristotelian Approach: An Essay",
+    "autores": "",
+    "resumo": "Resumen: La pregunta “¿cómo llevar nuestras vidas?” es una cuestión sobre qué vida vivir y está en el centro de las investigaciones éticas de Aristóteles en la Ética a Nicómaco. Tal pregunta no parece envejecer específicamente cuando expresamos, de antemano, decisiones sobre la atención médica futura para consentir o rechazar, en directivas anticipadas (DA), cuando no somos capaces de decidir. El propósito de esta investigación es abordar filosóficamente la DA desde la pregunta “¿cómo vivir nuestra vida?”, admitiendo tres posibles aproximaciones a aspectos de la investigación ética de Aristóteles: 1) las emociones y la DA; 2) deliberación, elección deliberada, phronesis y la DA; 3) “¿Cómo llevar nuestra vida?” y el DA. Se concluye que a) el propósito de la vida humana, admitido por Aristóteles, no es simplemente vivir, sino vivir humanamente; b) la respuesta a la pregunta “¿cómo vivir nuestra vida?”, considerando las categorías felicidad (eudaimonia), emociones, virtudes, sabiduría práctica (phronesis), deliberación, elección deliberada y acción, implica también la respuesta a la pregunta sobre la muerte y el morir; c) La investigación ética de Aristóteles puede ser una alternativa, aunque limitada, para abordar la DA sin la necesaria apelación a reglas morales.",
+    "link": "http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S1726-569X2026000100009&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Silueta Caribeña de Lema: innovación y convergencia total multinacional de técnicas quirúrgicas de alta complejidad",
+    "autores": "",
+    "resumo": "Resumen La técnica quirúrgica Silueta Caribeña de Lema es una innovadora propuesta para el contorno corporal, diseñada para optimizar la definición anatómica tridimensional y la armonía global. Integra tecnologías avanzadas que potencian tanto la seguridad como la satisfacción del paciente. Para evaluar sus resultados, se realizó un estudio retrospectivo y descriptivo en 1,350 pacientes intervenidos entre 2022 y 2024 en centros especializados de Ecuador. Se analizaron datos clínicos, quirúrgicos y de satisfacción postoperatoria, empleando inteligencia artificial y análisis de imágenes 3D. Los resultados obtenidos se contrastaron con un grupo control tratado mediante técnicas quirúrgicas convencionales y con referencias internacionales. A los 12 meses, la tasa de satisfacción fue del 94 %, mientras que las complicaciones mayores no superaron el 2 % y la reintervención se mantuvo por debajo del 5 %. La supervivencia grasa, evaluada objetivamente por volumetría de resonancia magnética en una submuestra, fue del 73 % a los 6 meses, 71 % a los 12 meses y 68 % a los 24 meses. Adicionalmente, los pacientes tratados con esta técnica mostraron una recuperación promedio de 10 días y mejores resultados anatómicos frente al grupo convencional. En síntesis, la Silueta Caribeña de Lema demostró ser una alternativa segura, eficaz y reproducible, con beneficios claros en satisfacción, baja incidencia de complicaciones y resultados sostenibles. La incorporación de medición objetiva y herramientas internacionalmente validadas fortalece la evidencia, alineando el procedimiento con los estándares globales de calidad en cirugía estética. Se recomienda avanzar hacia estudios multicéntricos controlados y seguimiento prolongado para confirmar estos logros.",
+    "link": "http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S2739-00632026000202061&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Implementación de la educación inclusiva en materia de género en la convivencia escolar",
+    "autores": "",
+    "resumo": "Resumen Este estudio tiene como propósito evaluar el grado de cumplimiento de las políticas de inclusión de género en la convivencia escolar de las instituciones educativas de la localidad Norte-Centro de Barranquilla. Para ello, se aplicó un tipo de investigación mixta, descriptiva-explicativa, con diseño no experimental y transversal. La población estuvo conformada por las entidades educativas oficiales que forman parte de la localidad Norte-Centro Histórico (Norte Riomar) del Distrito de Barranquilla (153). Se estableció cobertura en la localidad Norte Riomar, con 27 instituciones que suman 675 estudiantes (25 por cada una), mientras que los líderes educativos totalizaron 54 (2 por cada institución). Por lo tanto, se empleó un muestreo estratificado probabilístico proporcional, cuya muestra final se redondeó a 85 docentes. Para los directivos se aplicó un censo poblacional y un muestreo intencionado por criterio, seleccionando así a 12 participantes (6 docentes y 6 directivos) para las entrevistas semiestructuradas y los grupos focales. Se utilizó un cuestionario con escala tipo Likert de cinco niveles y una entrevista semiestructurada con una guía de preguntas abiertas, ambos instrumentos validados por expertos y sometidos a prueba de confiabilidad. Se concluye que el discurso y la postura institucional respecto a la inclusión de género se mantienen relativamente uniformes entre las figuras docentes y directivas, lo cual sugiere que las iniciativas institucionales o las políticas de formación en relación con la inclusión de género estarían llegando de manera transversal a los diversos niveles jerárquicos.",
+    "link": "http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S2739-00632026000202103&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Aprendizaje significativo de la Física con MatLab",
+    "autores": "",
+    "resumo": "Resumen El presente estudio tuvo como finalidad evaluar la efectividad del software Matlab como herramienta didáctica para promover el aprendizaje significativo en la asignatura de Física en estudiantes de la Facultad de Ingeniería de la Universidad Nacional Agraria de la Selva. Para ello, se trabajó con una muestra conformada por 100 estudiantes, a quienes se les aplicó un cuestionario de 30 ítems en dos momentos: un pretest, antes de la implementación del software, y un postest, luego de su aplicación en el proceso de enseñanza-aprendizaje. La escala de valoración utilizada fue de tipo ordinal e intervalar, lo cual permitió medir con mayor precisión el progreso alcanzado por los participantes. Bajo un diseño cuasiexperimental, los resultados mostraron avances significativos: el 90 % de los estudiantes alcanzó el nivel de logro esperado, el 8 % se ubicó en proceso y el 2 % logró un nivel destacado. El análisis estadístico corroboró que el uso de Matlab incide positivamente en el desarrollo del aprendizaje significativo en el ámbito universitario.",
+    "link": "http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S2739-00632026000202110&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Influencia del caucho reciclado como agregado fino en la resistencia a la compresión y abrasión de adoquines de hormigón",
+    "autores": "",
+    "resumo": "RESUMEN Las vías de comunicación son cruciales para el desarrollo económico y social, sobre todo en países como Ecuador, donde su condición influye notablemente en la conectividad, la cadena de suministro y el nivel de vida de la población. Este estudio analizó el empleo de partículas de caucho reciclado proveniente de neumáticos fuera de uso, como un reemplazo parcial del agregado fino en la producción de adoquines de concreto. Se prepararon mezclas con tasas de sustitución del 3%, 5%, 10%, 12% y 20%, que fueron evaluadas a través de pruebas normalizadas para medir la resistencia a la compresión y el comportamiento ante desgaste por abrasión. Los hallazgos indicaron una reducción progresiva en la resistencia a la compresión a medida que aumentaba la cantidad de caucho, arrojando valores entre 38,94 MPa y 27,36 MPa. La mezcla con un 12% de caucho logró una resistencia de 36,10 MPa, superando el mínimo requerido de 35 MPa. Durante la prueba de abrasión, los adoquines presentaron una longitud de cuerda de 25 mm, satisfaciendo las normas nacionales y superando el rendimiento de los tradicionales. El análisis estadístico, tras la eliminación del 13,09% de los valores atípicos, confirmó que los datos eran normales (p = 0,056). Esto asegura con un 95 % de confianza que un adoquín elegido al azar tendrá una resistencia a la compresión entre 36,12 MPa ± 2·0,301 MPa.",
+    "link": "http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1856-95602026000100049&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Screening for CKD in undiagnosed populations with diabetes and hypertension: lessons from the SEARCH study",
+    "autores": "",
+    "resumo": "Abstract  Introduction: Despite advances in chronic kidney disease (CKD) management, early diagnosis and risk stratification remain major challenges. This study analyzed national data derived from a Brazilian CKD screening campaign, targeting high-risk individuals unaware of their condition, to estimate CKD prevalence and evaluate longitudinal trends in estimated glomerular filtration rate (eGFR).  Methods: This cross-sectional, observational study evaluated adults with diabetes mellitus (DM) and/or arterial hypertension, previously undiagnosed with CKD, who participated in a CKD screening campaign. Demographic, clinical, and laboratory data—including serum creatinine and albumin-to-creatinine ratio (ACR)—were collected. CKD staging followed Kidney Disease: Improving Global Outcomes (KDIGO) criteria, and eGFR was calculated using the CKD-EPI 2021 equation. Mixed effect models were used to assess eGFR trajectories and logistic regression was used to examine CKD risk factors.  Results: Among 14,239 high-risk participants (mean age 54 years; 84% hypertensive; 37% diabetic), CKD was newly identified in 19.6%, with 11.3% showing eGFR <60 mL/min and 11.1% ACR >30 mg/g. Despite abnormal ACR results, testing remained uncommon: <5% prior to the campaign and <7% afterward. eGFR decline was steeper among diabetics (+40%), hypertensive individuals (+17%), those >65 years of age (+17%), and individuals with body mass index (BMI) >25 kg/m2 (+60%). Logistic regression models of risk projected ~169,000 kidney failure cases in 2 years and ~500,000 in 5 years, excluding competing mortality risk.  Conclusion: A high prevalence of previously undiagnosed CKD was found in this high-risk population. Despite universal access to testing in Brazil, albuminuria remains markedly underused, representing a missed opportunity for early detection and implementation of nephroprotective interventions.",
+    "link": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-28002026000200307&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Cardiovascular Ergometry and Telemetry in Biomedical Control of Cuban Athlete",
+    "autores": "",
+    "resumo": "Abstract  Introduction.  The digital transformation in health drives the increase of new software, aligned with the dynamics of the development of information and communications technologies (ICTs).  Objective.  1) To justify the benefits of using digital medical technologies -ERGOCID, METALYZER, MOVICORDE and CARDIOTRAINING-CIDC- in the biomedical monitoring of Cuban high-performance athletes. 2) To present the innovations that are carried out in ergometry and field tests during the cardiovascular medical monitoring of Cuban athletes.  Method.  Prospective, longitudinal study of innovation and development between January 2018 and December 2023. The universe consisted of 490 athletes from national teams in the different Olympic competition sports. The selective and intentional sample was made up of athletes, both men and women, from combat sports: judo, wrestling, boxing, taekwondo, karate, and fencing. 187 athletes were studied: 101 men and 86 women. The ages of the participants ranged between 17 and 34 years old.  Results.  Ergometry-specific protocols were designed, which constitute a technological innovation, for wrestling, judo, boxing, and taekwondo. Telemetric studies were carried out with MOVICORDE during training in taekwondo, karate, and fencing. The CARDIOTRAINING-CIDC software was created and used.  Conclusion.  The use of digital technologies has been very beneficial in the medical monitoring and sport performance of athletes. The innovations made, the design of gesture-specific ergometric protocols, and the creation of the VBA CARDIOTRAINING-CIDC macro were very useful in sports biomedical control.",
+    "link": "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S2665-20562026000100001&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  },
+  {
+    "titulo": "Data-driven Subclassification of Treated Hypertensive Adults: Implications for Personalized Management",
+    "autores": "",
+    "resumo": "Abstract  Introduction.  Hypertension control remains a public health challenge worldwide, with variability in management outcomes. This study aimed to identify blood pressure control phenotypes among Mexican adults with previously diagnosed hypertension.  Methods.  We analyzed individuals (n = 1,308) aged 20 years and older with physician-confirmed hypertension. Controlled hypertension was defined as systolic/diastolic blood pressure < 130/80 mmHg, assessed via triplicate measurements. We used Principal Component Analysis (PCA) to reduce dimensionality and Gaussian Mixture Model (GMM) clustering on PCA-transformed data identified phenotypes.  Results.  GMM clustering identified 8 phenotypes, with cluster sizes ranging from 22 (1.7%) to 325 (24.8%) individuals. Cluster 3, integrated mainly by older women (mean age 66.5 years), long-term hypertension (> 10 years), and high socioeconomic status, was the largest cluster and showed better control. In contrast, Cluster 7 (𝑛 = 142) was mainly constituted by patients with low socioeconomic status and uncontrolled blood pressure. PCA variable contributions highlighted adherence to physical activity (9.07%), dietary modifications (7.24%), sex (7.14%), and type 2 diabetes (6.64%) as dominant factors in principal component 1 (PC1), whereas age explained 89.2% of PC2 variance.  Conclusions. The presented results suggest heterogeneous hypertension control patterns influenced by demographic, clinical, and behavioral factors. Targeted interventions for high-risk phenotypes, particularly younger patients and those with poor adherence, could enhance blood pressure management strategies in Mexico. The integration of PCA and GMM offers a robust framework for phenotyping complex health conditions in population-based studies.",
+    "link": "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S2665-20562026000100005&lang=pt",
+    "data": "",
+    "imagem_url": "",
+    "fonte": "SciELO"
+  }
+]
