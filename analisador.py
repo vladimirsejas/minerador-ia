@@ -1,6 +1,7 @@
 import re
 from collections import Counter
 
+
 class Analisador:
     STOPWORDS = {
         "a", "o", "e", "de", "do", "da", "em", "um", "uma", "para",
@@ -31,25 +32,3 @@ class Analisador:
         tokens = re.findall(r"\b[a-zA-ZÀ-ú]{4,}\b", todos_titulos)
         filtradas = [t for t in tokens if t not in self.STOPWORDS]
         return Counter(filtradas).most_common()
-
-# Exemplo de uso:
-analisador = Analisador()
-resultado = analisador.analisar(dados)
-
-# Impressão separada
-if "mensagem" in resultado:
-    print("[ANÁLISE]", resultado["mensagem"])
-else:
-    print("\n" + "=" * 50)
-    print("        ANÁLISE DOS DADOS COLETADOS")
-    print("=" * 50)
-    print(f"\n Total de artigos coletados: {resultado['total_artigos']}")
-    print("\n Artigos por fonte:")
-    for fonte, qtd in resultado["fontes"].items():
-        print(f"   {fonte}: {qtd}")
-    print("\n Top 10 palavras-chave nos títulos:")
-    for palavra, freq in resultado["palavras_chave"]:
-        print(f"   '{palavra}': {freq}x")
-    print(f"\n Artigos com resumo disponível: {resultado['com_resumo']}/{resultado['total_artigos']}")
-    print(f" Artigos com imagem coletada:  {resultado['com_imagem']}/{resultado['total_artigos']}")
-    print("=" * 50 + "\n")
