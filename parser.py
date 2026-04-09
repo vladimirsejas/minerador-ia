@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 
-
 class Parser:
 
     def extrair_artigos_arxiv(self, soup: BeautifulSoup) -> list[dict]:
@@ -11,11 +10,13 @@ class Parser:
                 titulo = self._texto(item, "p", class_="title")
                 autores = self._texto(item, "p", class_="authors")
                 resumo = self._texto(item, "span", class_="abstract-full")
+
                 link_tag = item.find("p", class_="list-title")
                 link = ""
                 if link_tag:
                     a = link_tag.find("a")
                     link = a["href"] if a else ""
+
                 data = self._texto(item, "p", class_="is-size-7")
 
                 artigos.append({
@@ -49,11 +50,9 @@ class Parser:
         artigos = []
         try:
             resultados = soup.find_all("div", class_="item")
-
             for item in resultados:
                 titulo_tag = item.find("a")
                 titulo = titulo_tag.get_text(strip=True) if titulo_tag else ""
-
                 link = titulo_tag["href"] if titulo_tag else ""
 
                 resumo_tag = item.find("div", class_="abstract")
@@ -68,8 +67,6 @@ class Parser:
                     "imagem_url": "",
                     "fonte": "SciELO"
                 })
-
         except Exception as e:
             print(f"[SCIELO ERRO] {e}")
-
         return artigos
